@@ -29,7 +29,7 @@ main#tela-login
         transform: translateY(-50%);
         width: 150px;
         height: 150px;
-        background: blue;
+        background: rgb(196, 196, 197);
         border-radius: 50%;
         background-image: url(_img/perfil.png);
         background-repeat: no-repeat;
@@ -40,8 +40,9 @@ main#tela-login
     display: flex;
     position: relative;
     width: 425px;
-    height: 550px;
-    background: rgba(0, 128, 0, 0.418);
+    height: 600px;
+    background: rgba(0, 0, 0, 0.26);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     justify-content: center;
     align-items: center;
     border-radius: 20px;
