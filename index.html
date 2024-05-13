@@ -8,21 +8,23 @@
 </head>
 <body>
     <main id="tela-login">
-        <div id="campos">
-            <div id="user">
-                <img src="_img/user.png" alt="">
-                <input type="text" name="user" id="iuser">
+        <div id="container">
+            <div id="campos">
+                <div id="user">
+                    <img src="_img/user.png" alt="">
+                    <input type="text" name="user" id="iuser">
+                </div>
+                <div>
+                    <img src="_img/password.png" alt="">
+                    <input type="password" name="pass" id="ipass">
+                </div>
             </div>
-            <div>
-                <img src="_img/password.png" alt="">
-                <input type="password" name="pass" id="ipass">
+            <input type="checkbox" name="remember" id="iremember">
+            <label for="iremember">Remember me</label>
+            <span>Forgot Password?</span>
+            <div id="button_cont">
+                <input id="buttom" type="submit" value="LOGIN">
             </div>
-        </div>
-        <input type="checkbox" name="remember" id="iremember">
-        <label for="iremember">Remember me</label>
-        <span>Forgot Password?</span>
-        <div id="button">
-            <input type="submit" value="LOGIN">
         </div>
     </main>
 </body>

@@ -18,7 +18,16 @@ body
 
 main#tela-login
 {
+    display: flex;
     width: 425px;
     height: 693px;
     background: green;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttom
+{
+    width: 250px;
+    height: 40px;
 }
