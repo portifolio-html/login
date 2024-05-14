@@ -40,16 +40,54 @@ main#tela-login
     display: flex;
     position: relative;
     width: 425px;
-    height: 600px;
-    background: rgba(0, 0, 0, 0.26);
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    height: 500px;
+    background: rgba(0, 0, 0, 0.56);
+    border: 2px solid rgba(255, 255, 255, 0.7);
     justify-content: center;
     align-items: center;
     border-radius: 20px;
 }
 
+.campos
+{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: end;
+    border-radius: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
 #buttom
 {
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0px;
+}
+
+img
+{
+    width: 25px;
+    margin: 0px 10px;
+}
+
+#ipass, #iuser
+{
     width: 250px;
-    height: 40px;
+    height: 50px;
+    position: relative;
+    direction: ltr;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 18pt;
+}
+
+#container > input
+{
+    margin: 15px 15px;
 }
