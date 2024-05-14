@@ -29,7 +29,7 @@ main#tela-login
         transform: translateY(-50%);
         width: 150px;
         height: 150px;
-        background: rgb(196, 196, 197);
+        background: rgb(82, 82, 82);
         border-radius: 50%;
         background-image: url(_img/perfil.png);
         background-repeat: no-repeat;
