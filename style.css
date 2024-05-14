@@ -31,7 +31,7 @@ main#tela-login
         height: 150px;
         background: rgb(82, 82, 82);
         border-radius: 50%;
-        background-image: url(_img/perfil.png);
+        background-image: url(./_img/perfil.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 70%;
